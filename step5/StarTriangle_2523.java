@@ -18,5 +18,5 @@ public class StarTriangle_2523 {
 	        }
 	        
 	        sc.close();
-	    }
+	 }
 }
