@@ -12,6 +12,7 @@ public class Dicimal {
 			for(int j=2; j<=i; j++) {
 				if(i%j == 0) cnt++;
 			}
+			
 			if(cnt==1) System.out.print(i+"\t");
 			cnt=0;
 		}
