@@ -4,7 +4,7 @@ public class ArrayOrder {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in); 
         int min, index = 0, a; 
-        int num = sc.nextInt(); sc.close();
+        int num = sc.nextInt(); 
         int [] arr = new int [1001]; 
         
         for(int i=0; i<num; i++) arr[i] = sc.nextInt(); 
@@ -23,5 +23,6 @@ public class ArrayOrder {
             arr[index] = a; 
         } 
         for(int i=0; i<num; i++) System.out.println(arr[i]);
+        sc.close();
     } 
 }
