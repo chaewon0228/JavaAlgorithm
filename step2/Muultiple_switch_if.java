@@ -3,16 +3,18 @@ import java.util.Scanner;
 public class Muultiple_switch_if {
 	public static void main(String args[]){
 		Scanner sc = new Scanner(System.in);
-		System.out.print("¼ö ÀÔ·Â : ");
+		System.out.print("ìˆ˜ ì…ë ¥ : ");
 		int number = sc.nextInt();
 		sc.close();
+		
 		switch(number % 3){
-			case 0 : System.out.println(number + "Àº 3ÀÇ ¹è¼öÀÌ´Ù."); break;
+			case 0 : System.out.println(number + "ì€ 3ì˜ ë°°ìˆ˜ì´ë‹¤."); break;
+			
 			default : switch(number % 5){
-				 case 0 : System.out.println(number + "Àº 5ÀÇ ¹è¼öÀÌ´Ù."); break;
+				 case 0 : System.out.println(number + "ì€ 5ì˜ ë°°ìˆ˜ì´ë‹¤."); break;
 				 default : switch(number % 8){		
-					  case 0 : System.out.println(number+"Àº 8ÀÇ ¹è¼öÀÌ´Ù."); break;
-					  default : System.out.println("¾î´À ¹è¼öµµ ¾Æ´Ï´Ù.");
+					  case 0 : System.out.println(number+"ì€ 8ì˜ ë°°ìˆ˜ì´ë‹¤."); break;
+					  default : System.out.println("ì–´ëŠ ë°°ìˆ˜ë„ ì•„ë‹ˆë‹¤.");
 	                         		 
 	         		           }                  
 	             }      
