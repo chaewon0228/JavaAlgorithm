@@ -2,7 +2,7 @@ package step12;
 import java.util.Scanner;
 import java.util.Arrays;
  
-public class PointSort_11650 {
+public class SortPoint_11650 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
