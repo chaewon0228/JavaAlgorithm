@@ -6,7 +6,7 @@ public class Hotel_10250 {
         int T = sc.nextInt();
         for(int i=0; i<T; i++) {
             int H = sc.nextInt();
-            int W = sc.nextInt();
+           // int W = sc.nextInt();
             int N = sc.nextInt();
             int floor = N % H, room = N / H + 1;
             if(N%H == 0) {
