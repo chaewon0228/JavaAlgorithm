@@ -11,6 +11,5 @@ public class End666_1436 {
             if(String.valueOf(cnt).contains("666")) n--;
         }
         System.out.println(cnt);
-        sc.close();
     }
 }
