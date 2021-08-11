@@ -7,14 +7,13 @@ public class Dicimal {
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt(); sc.close();
 		
-		int cnt=0; 
+		int cnt = 0; 
 		for(int i=2; i<=num; i++) {
 			for(int j=2; j<=i; j++) {
 				if(i%j == 0) cnt++;
 			}
-			
-			if(cnt==1) System.out.print(i+"\t");
-			cnt=0;
+			if(cnt==1) System.out.print(i + "\t");
+			cnt = 0;
 		}
 	  }
 }
