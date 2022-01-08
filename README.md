@@ -1,1 +1,2 @@
-#[BaekJoon🎯백준] 단계별 Java Algorithm 
+# JavaAlgorithm
+[BaekJoon🎯백준] 단계별 Java Algorithm 
